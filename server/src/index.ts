@@ -44,7 +44,7 @@ server.use((req, res, next) => {
     await connect(process.env.MONGO_URL as string);
 
     console.log("Connect Success");
-    server.listen(4020, () => console.log("Server Start"));
+    server.listen(4021, () => console.log("Server Start"));
   } catch (err) {
     console.log(`Error is ${err}`);
   }
