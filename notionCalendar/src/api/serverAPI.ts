@@ -9,7 +9,7 @@ type loginProps = {
 const cookie = new Cookies();
 
 const api = axios.create({
-  baseURL: "http://localhost:4020",
+  baseURL: "http://localhost:4021",
   // timeout: 3000,
   headers: { "Content-Type": "application/json" },
 });
