@@ -141,10 +141,16 @@ Notion API를 이용한 자신의 목표와 프로젝트 그리고 오늘의 내
 - Server에서 받은 Goals, Projects, Actions에 대한 정보를 화면에 표시합니다.
 - 메뉴 선택에 따른 필요 데이터를 보여줍니다. 
 - 메뉴와, 게시글은 Redux-toolkit을 사용하여 상태 관리합니다. 
+- 토큰의 유무 여부로, 페이지 접근 권한을 제한합니다.
 
 ![screen_capture 2022-11-18 오후 4 41 11](https://user-images.githubusercontent.com/103201530/202648012-d512aa34-3f3a-40a3-9e66-197b686ffd9a.png)
 ![screen_capture 2022-11-18 오후 4 41 29](https://user-images.githubusercontent.com/103201530/202648016-ffe5a3bc-ef9d-4940-9bcd-3f14782928e0.png)
 
 
+
+
+### Update 사항 
+- CRUD 에서 U,D에 대한 기능
+- 게시글 반응형으로 개발
 
 
